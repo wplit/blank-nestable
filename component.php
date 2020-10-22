@@ -2,17 +2,10 @@
 
 class ExtraBlank extends OxygenExtraElements {
         
-    var $js_added = false;
-    
-	function name() {
+    function name() {
         return 'Blank nestable component';
     }
-    
-    
-    /*function icon() {
-        return plugin_dir_url(__FILE__) . 'assets/'.basename(__FILE__, '.php').'.svg';
-    }*/
-    
+   
     function extras_button_place() {
         return "interactive";
     }
@@ -44,6 +37,9 @@ class ExtraBlank extends OxygenExtraElements {
         return array();
     }
 
+    function controls() {
+
+    }
 
 }
 
